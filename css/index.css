@@ -1,0 +1,405 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+video {
+  width: 100%;
+}
+
+.about-box {
+  width: 95%;
+  margin: 7em auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-box>div:first-child {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.about-box>div>img{
+  max-width: 100%;
+}
+
+.about-box-text {
+  width: 55%;
+}
+
+.about-box-text>p {
+  text-align: justify;
+  font-size: 24px;
+  color: #000000;
+}
+
+.about-box-text>h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #2C3E50;
+}
+
+.btn-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background: #2C3E50;
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  width: 30%;
+  height: 10%;
+}
+
+.btn-text:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.img-fon {
+  width: 100%;
+  height: calc(15rem + 3vw);
+}
+
+.txt-on-img {
+  position: relative;
+  text-align: center;
+  margin-bottom: 7em;
+}
+
+.more-txt-on-img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.more-txt-on-img>p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.more-txt-on-img>a>button {
+  width: 25%;
+  height: 8vh;
+  font-size: 24px;
+  color: #FFFFFF;
+  background: #2C3E50;
+  border-radius: 25px;
+}
+
+.achievements {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.achievements-element {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.achievements-element>h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2C3E50;
+}
+
+.achievements-element>p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.growth-company {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.growth-company>h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #2C3E50;
+}
+
+.company-aspiration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7em;
+}
+
+.company-aspiration>div:first-of-type {
+  width: 50%;
+}
+
+.company-aspiration>div>p {
+  margin-bottom: 2em;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+
+.company-aspiration>div>img {
+  height: 85%;
+  width: 100%;
+}
+
+.main-footer-order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer-order-text {
+  width: 50%;
+}
+
+.main-footer-order-text>h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #2C3E50;
+}
+
+.more-info-footer-order-text {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+
+.main-footer-order-text:not(:first-child) {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.form-div {
+  width: 45%;
+  background: #2C3E50;
+}
+
+.form-div>form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+form>h2 {
+  margin-top: 3em;
+  font-weight: 700;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+form>input {
+  margin: 1em 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 3em;
+  width: 100%;
+  background: #516578;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+form>input::-webkit-input-placeholder {
+  color: #fff;
+ } 
+
+.penultimate-element {
+  width: 65%;
+  margin-right: 2%;
+}
+
+.last-element {
+  width: 30%;
+}
+
+.btn-form {
+  margin: 3em 0;
+  height: 3em;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.25);
+  border-radius: 25px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #2C3E50;
+}
+
+.btn-form:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.success{
+  margin: 0;
+  color: rgb(1, 182, 1);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+@media screen and (max-width: 1850px) {
+  .more-txt-on-img>a>button {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .btn-text {
+    font-size: 1.2vw;
+    height: 6%;
+  }
+
+  .more-txt-on-img>a>button {
+    width: 30%;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .more-txt-on-img>p {
+    font-size: calc(5px + 1.2vw);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .penultimate-element{
+    width: 100%;
+  }
+  .last-element{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .about-box-text>h2{
+    font-size: 4vw;
+  }
+  .about-box-text>p{
+    font-size: 3vw;
+  }
+  .btn-text {
+    font-size: 1.5vw;
+    height: 4%;
+    width: 40%;
+  }
+  .more-txt-on-img>a>button{
+    height: 40px;
+    font-size: 1.5vw;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .about-box{
+    flex-direction: column;
+  }
+  .about-box>div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .about-box-text{
+    width: 100%;
+  }
+  .btn-text{
+    width: 30%;
+    height: 5vw;
+    font-size: 2.2vw;
+  }
+  .more-txt-on-img>p{
+    font-size: 2.8vw;
+  }
+  .img-fon{
+    height: calc(20rem + 3vw);
+  }
+  .more-txt-on-img>a>button{
+    font-size: 2.2vw;
+    height: 45px;
+  }
+  .more-txt-on-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+  }
+  .more-txt-on-img>a{
+    width: 100%;
+  }
+  .company-aspiration{
+    flex-direction: column;
+  }
+  .company-aspiration>div:first-of-type{
+    width: 90%;
+  }
+  .company-aspiration>div>img{
+    width: 90%;
+  }
+  .company-aspiration>div:last-child{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 710px) {
+  .main-footer-order{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .form-div{
+    width: 100%;
+  }
+  .main-footer-order-text:not(:first-child){
+    width: 95%;
+  }
+  .achievements-element{
+    width: 50%;
+  }
+  .about-box-text>h2{
+    font-size: 6vw;
+  }
+  .about-box-text>p{
+    font-size: 4.5vw;
+  }
+  .btn-text{
+    height: 8vw;
+    width: 40%;
+    font-size: 3vw;
+  }
+  .more-txt-on-img>a>button{
+    height: 8vw;
+    width: 40%;
+    font-size: 3vw;
+  }
+  .more-txt-on-img>a>button{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .achievements-element{
+    width: 100%;
+  }
+  .more-txt-on-img>p{
+    font-size: 4vw;
+  }
+  .more-txt-on-img{
+    justify-content: space-around;
+  }
+  .more-txt-on-img>a>button{
+    width: 56%;
+  }
+  .more-txt-on-img>a>button{
+    font-size: 3.5vw;
+  }
+}

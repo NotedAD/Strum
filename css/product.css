@@ -1,0 +1,172 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+  padding-top: 3em;
+  width: 95%;
+  margin: 0 auto;
+}
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  color: #2c3e50;
+}
+.product-box {
+  display: flex;
+  justify-content: space-between;
+}
+.info-product {
+  width: 60%;
+}
+.text-product {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #2c3e50;
+}
+.button-order {
+  height: 2em;
+  width: 9.5em;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  background: #2c3e50;
+  border: 1px solid #2c3e50;
+  border-radius: 15px;
+  color: #fff;
+}
+.button-order:hover {
+  cursor: pointer;
+  background-color: red;
+}
+.air {
+  display: none;
+  max-width: 350px;
+  margin: 85px auto 0;
+  padding: 20px;
+  color: #fff;
+  background: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-inner {
+  border: 2px solid #909090;
+  border-bottom: none;
+}
+.form-row-icon {
+  position: relative;
+  border-bottom: 2px solid #fff;
+}
+.form-row-icon .fa {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #2c3e50;
+  color: #fff;
+  border-bottom: 2px solid;
+}
+.form-row-icon input {
+  display: block;
+  width: 100%;
+  padding: 0 10px 0 20px;
+  line-height: 40px;
+  box-sizing: border-box;
+  border-width: 0;
+  background: #fff;
+}
+.form-row-icon .fa-paper-plane-o {
+  border-bottom-color: #fff;
+  cursor: pointer;
+}
+.form-row-icon input[type="submit"] {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #2c3e50;
+}
+.success{
+  color: green;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.product-send{
+  height: 2em;
+  width: 9.5em;
+  margin: 1em 0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  border: 1 solid #2c3e50;
+  border-radius: 15px;
+  color: #2c3e50;
+  border: none;
+}
+.product-send:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.form-row-send{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 1350px) {
+  .product-box>div>img{
+    max-width: 100%;
+  }
+  .header-text{
+    font-size: 3.4vw;
+  }
+  .text-product{
+    font-size: 2vw;
+  }
+  .price{
+    font-size: 3.5vw;
+  }
+  .button-order{
+    font-size: 2.3vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .product-box{
+    flex-direction: column;
+  }
+  .product-box>div{
+    display: flex;
+    justify-content: center;
+  }
+  .product-box>div>img{
+    max-width: 80%;
+  }
+  .info-product{
+    width: 100%;
+    flex-direction: column;
+  }
+  .text-product{
+    font-size: 3vw;
+  }
+  .button-order{
+    font-size: 3vw;
+  }
+}

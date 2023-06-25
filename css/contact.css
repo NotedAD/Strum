@@ -1,0 +1,323 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding-top: 3em;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contact {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+
+.contactHeader {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  color: #2C3E50;
+}
+
+.allInfoContacts {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.contactsOneDiv {
+  width: 40%;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contactsOneDiv>p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.3vw;
+}
+
+.contactsOneDiv>p>a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contactsOneDiv>p>a:hover {
+  color: red;
+}
+
+.contactsOneDiv>h2 {
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.contactsTwoDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.map {
+  height: 80%;
+  width: 80%;
+}
+
+.geoloc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+.partnersH2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  color: #2C3E50;
+  margin-top: 70px;
+
+}
+
+.flagAndName {
+  display: flex;
+  align-items: center;
+}
+
+.flagAndName>p {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.separateRussiaInfo {
+  margin: 30px 0;
+}
+
+.separateRussiaInfo>p {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.russiaInfoTop,
+.russiaInfoBottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.otherCountry {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.otherCountry>div {
+  flex: 1;
+}
+
+.countryInfo {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.countryInfo>p {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.otherCountryLast {
+  display: flex;
+  justify-content: space-between;
+  width: 62vw;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contactsOneDiv>p {
+    font-size: 1.5vw;
+  }
+
+  .contact {
+    font-size: 2.1vw;
+  }
+
+  .flagAndName>p {
+    font-size: 1.8vw;
+    margin-left: 0.5rem;
+  }
+
+  .separateRussiaInfo>p {
+    font-size: 1.8vw;
+  }
+
+  .separateRussiaInfo {
+    margin-right: 1rem;
+  }
+
+  .partnersH2 {
+    font-size: 3.5vw;
+  }
+
+  .countryInfo>p {
+    font-size: 1.8vw;
+    margin-left: 0.5rem;
+  }
+
+  .flagAndName>img {
+    width: 40%;
+  }
+
+  .russia>.flagAndName>img {
+    width: 10%;
+  }
+
+  .otherCountry>div:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .allInfoContacts {
+    flex-direction: column-reverse;
+  }
+
+  .contactsTwoDiv {
+    width: 100%;
+  }
+
+  .geoloc {
+    font-size: 4vw;
+  }
+
+  .map {
+    height: 20rem;
+    width: 90%;
+  }
+
+  .contactsOneDiv {
+    width: 100%;
+  }
+
+  .contactsOneDiv>h2 {
+    font-size: 3.8vw;
+  }
+
+  .contactsOneDiv>p {
+    font-size: 2vw;
+  }
+
+  .russiaInfoTop,
+  .russiaInfoBottom {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .separateRussiaInfo {
+    width: 45%;
+  }
+
+  .otherCountry {
+    flex-wrap: wrap;
+  }
+
+  .otherCountry>div,
+  .otherCountryLast>div {
+    width: 45%;
+    flex: none;
+  }
+
+  .separateRussiaInfo>p {
+    font-size: 2.2vw;
+  }
+
+  .otherCountry {
+    width: 100%;
+  }
+
+  .countryInfo>p {
+    font-size: 2.2vw;
+  }
+
+  .flagAndName>img {
+    width: 33%;
+  }
+
+  .flagAndName>p {
+    font-size: 2.6vw;
+  }
+
+  .otherCountryLast {
+    width: 100%;
+  }
+
+  .contactHeader {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .separateRussiaInfo {
+    width: 100%;
+  }
+  .otherCountry>div, .otherCountryLast>div{
+    width: 100%;
+  }
+  .flagAndName>img{
+    width: 25%;
+  }
+  .contactsOneDiv>h2{
+    font-size: 6vw;
+  }
+  .contactsOneDiv>p{
+    font-size: 3.7vw;
+  }
+  .partnersH2{
+    font-size: 5vw;
+  }
+  .russia>.flagAndName>img{
+    width: 20%;
+  }
+  .flagAndName>p{
+    font-size: 4.6vw;
+  }
+  .separateRussiaInfo>p{
+    font-size: 4vw;
+  }
+  .countryInfo>p{
+    font-size: 4vw;
+  }
+  .otherCountryLast{
+    flex-wrap: wrap;
+  }
+}

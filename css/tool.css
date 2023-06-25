@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  padding-top: 3em;
+  width: 95%;
+  margin: 0 auto;
+}
+.tool-head-text:first-of-type {
+  margin-top: 1.5em;
+}
+.tool-head-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  color: #2c3e50;
+  margin-left: 0.5em;
+}
+.med-tool-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  text-align: justify;
+  margin-left: 1em;
+}
+.main-text > p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  margin-left: 1em;
+}
+.catalog>a{
+  text-decoration: none;
+}
+.catalog-element>p:hover{
+  color: red;
+}
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.catalog-element > p {
+  margin-top: 0;
+  margin-bottom: 2em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}

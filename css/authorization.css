@@ -1,0 +1,84 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-form {
+    font-size: 1.5vw;
+    margin: 1em 0;
+    padding: 1em 2.5em;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+
+.authorization{
+    display: flex;
+    justify-content: center;
+}
+.registration{
+    display: none;
+    justify-content: center;
+}
+.registration-btn{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2em;
+    padding: 1em 0em;
+    border-radius: 15px;
+    border: none;
+    background-color: #2C3E50;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 50%;
+}
+.registration-btn-auth{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2em;
+    padding: 1em 0em;
+    border-radius: 15px;
+    border: none;
+    background-color: #2C3E50;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 50%;
+}
+.authorization-btn{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2em;
+    padding: 1em 0em;
+    border-radius: 15px;
+    border: none;
+    background-color: #2C3E50;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 50%;
+}
+.registration-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.registration-btn-auth:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.authorization-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
